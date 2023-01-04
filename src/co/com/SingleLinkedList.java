@@ -1,14 +1,6 @@
 package co.com;
 
 public class SingleLinkedList {
-    class Node{
-        int data;
-        Node next;
-        public Node(int data, Node next){
-            this.data=data;
-            this.next=next;
-        }
-    }
 
     public Node head=null;
     public void prependArrayToList(int[] input){
