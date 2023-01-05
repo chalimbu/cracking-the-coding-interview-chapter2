@@ -3,7 +3,7 @@ package co.com;
 public class SingleLinkedList {
 
     public Node head=null;
-    public void prependArrayToList(int[] input){
+    public void prependArrayToList(char[] input){
         for(int i=input.length-1;i>=0;i--){
             Node temporal= new Node(input[i],head);
             head=temporal;
