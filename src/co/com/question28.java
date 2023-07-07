@@ -1,6 +1,12 @@
 package co.com;
 
 public class question28{
+
+    /**
+     * Loop detection: given a linked list whic might contain a loop, implement an algorithm that returns the
+     * node at the beginning of the loop (if one exist)
+     */
+
     public static void main(String[] args){
         //   A  -> B -> C -> null
         //
